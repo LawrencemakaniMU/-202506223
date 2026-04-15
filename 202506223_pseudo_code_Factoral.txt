@@ -1,0 +1,15 @@
+// FUNCTION DEFINITION
+
+FUNCTION factorial(n)
+    // Initialize result to 1 (starting value)
+    SET result ← 1
+    // Loop from 1 up to and including n
+    FOR i FROM 1 TO n DO
+        // Multiply result by current number
+        SET result ← result × i
+    END FOR
+    RETURN result
+END FUNCTION
+
+// Call the function and display result
+PRINT factorial( 5 )
