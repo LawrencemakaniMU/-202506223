@@ -1,0 +1,11 @@
+BEGIN
+    SET a ← 0
+    SET b ← 1
+    
+    FOR i FROM 0 TO n - 1 DO 
+        DISPLAY a
+        temp ← a
+        a ← b
+        b ← temp + b
+    END FOE
+END 
