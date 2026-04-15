@@ -1,0 +1,43 @@
+1. Start
+
+	Input: an integer n.
+
+2. Initialize
+	
+	Set result = 1 (this is the starting value).
+
+3. Iteration Loop
+
+	For each number i from 1 up to n:
+
+		Multiply result by i.
+
+		Update result.
+		
+4. End of Loop
+
+	After the loop finishes, result holds the factorial value.
+
+5. Return Result
+
+	Output: result.
+
+6. Example Execution
+
+	Input: n = 5
+
+	Steps:
+
+		result = 1
+
+		result = 1 × 1 = 1
+
+		result = 1 × 2 = 2
+
+		result = 2 × 3 = 6
+
+		result = 6 × 4 = 24
+
+		result = 24 × 5 = 120
+
+	Output: 120

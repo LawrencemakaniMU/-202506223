@@ -1,0 +1,6 @@
+1. Call — fibonacci(j) is invoked with a target count j.
+2. Initialise — Two variables are set: a = 0 (current number) and b = 1 (next number).
+3. Loop — The for loop runs exactly j times, using i as the counter.
+4. Print — On each iteration, the current value a is printed.
+5. Update — a and b are swapped simultaneously using Python's tuple unpacking: a becomes the old b, and b becomes the old a + b (the next number in the sequence).
+6. Repeat or end — If more iterations remain, control returns to the top of the loop; otherwise the function ends.
